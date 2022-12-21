@@ -6,7 +6,9 @@
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test",
-    "nx": "nx"
+    "nx": "nx",
+    "dev:individual": "npm run nx -- serve individual",
+    "dev:general": "npm run nx -- serve general"
   },
   "private": true,
   "dependencies": {

@@ -5,8 +5,8 @@ import { Component, Input } from '@angular/core';
   selector: 'general-icon',
   template: ` <svg width="0" height="0" fill="currentColor">
     <use
-      attr.href="assets/{{ icon }}.svg#svg"
-      attr.xllink:href="assets/{{ icon }}.svg#svg"
+      attr.href="assets/icon.svg#{{ icon }}"
+      attr.xllink:href="assets/icon.svg#{{ icon }}"
     ></use>
   </svg>`,
   styles: [

@@ -1,7 +1,8 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'angular-icon-general-icon',
+  standalone: true,
+  selector: 'general-icon',
   template: ` <svg width="0" height="0" fill="currentColor">
     <use
       attr.href="assets/{{ icon }}.svg#svg"
@@ -17,6 +18,6 @@ import { Component, Input } from '@angular/core';
     `,
   ],
 })
-export class GeneralIconComponent {
+export class IconComponent {
   @Input() icon!: string;
 }

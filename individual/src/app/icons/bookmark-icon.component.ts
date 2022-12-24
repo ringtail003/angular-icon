@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'angular-icon-bookmark-icon',
+  standalone: true,
+  selector: 'individual-bookmark-icon',
   template: `<svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"

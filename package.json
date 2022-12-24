@@ -8,7 +8,9 @@
     "test": "nx test",
     "nx": "nx",
     "dev:individual": "npm run nx -- serve individual",
-    "dev:general": "npm run nx -- serve general"
+    "dev:general": "npm run nx -- serve general",
+    "build:individual": "npm run nx -- build individual",
+    "build:general": "npm run nx -- build general"
   },
   "private": true,
   "dependencies": {
